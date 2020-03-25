@@ -21,7 +21,6 @@ public class TestConnexionJdbc {
 		
 		//variable pour faire les requête
 		Statement statement = connection.createStatement();
-		
 /**
         int nbLignesImpactées = statement.executeUpdate("insert into plat(nom,prix) values('super plat', 1500)");
 
